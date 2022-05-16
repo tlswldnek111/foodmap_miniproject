@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/recommand/bxslider.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  	<script type="text/javascript" src="../js/recommand/bxslider.js"></script>  
+</head>
+<body>
+    <div id="target">
+   	 <div>
+   	 <%
+   	 for(int i=0;i<imgcopy.length;i++){
+   	 %>
+   	 <li><img src="<%=imgcopy[i]%>"></li>
+   			
+           <%
+   	 }     
+           %>
+        </div>
+        <br><br>
+        <ul>
+           	 <%
+   	 for(int i=0;i<imgcopy.length;i++){
+   	 %>
+   	 <li><img src="<%=imgcopy[i]%>"></li>
+   			
+           <%
+   	 }     
+           %>
+        </ul>
+    </div>
+</body>
+</html>

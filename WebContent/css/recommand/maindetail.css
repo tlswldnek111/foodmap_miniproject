@@ -1,0 +1,23 @@
+	#box{
+	margin: 100px auto 50px;
+	width:800px;
+	border-style : ridge;
+	font-family: 'Gowun Batang', serif;
+	}
+	#message-text{
+	top:50px;
+		width:600px;
+		height:300px;
+			background-color:white;
+	      resize:none;
+	      margin:auto;
+	}
+	.center{
+	margin: 10px auto 20px;
+	text-align:center;
+	}
+	 #map{
+    	width:600px;
+    	height:350px;
+    	margin:0 auto 20px;
+    }

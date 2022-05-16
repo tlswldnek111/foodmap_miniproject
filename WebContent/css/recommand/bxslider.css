@@ -1,0 +1,42 @@
+	#target{
+	  	display:absolute;
+	  	margin:50px auto ;
+	  	width:500px;
+  	}
+  	img{
+  	object-fit:scale-down;
+  	}
+  	#target>div img{
+  	width:500px;
+  	height:500px;
+  	margin: 0px auto;
+  	}
+  	#target>ul img{
+  	width:200px;
+  	height:200px;
+  	}
+  	#target a{
+  		display:block;
+  		display:relative;
+		height:50px;
+		width:100px;
+		background-color:black;
+		opacity:0.2;
+		color:white;
+		line-height:40px;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:50px;
+		text-align:center;
+		margin-bottom:200px;
+		
+		
+  	}
+  	#target a:first-child{
+  	margin-left:-100px;
+  	margin-top:-395px;
+  	}
+    #target a:last-child{
+		margin-left:500px;
+		margin-top:-260px;
+	}
